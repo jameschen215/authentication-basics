@@ -1,0 +1,33 @@
+{
+	"name": "authentication-basics",
+	"version": "1.0.0",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon src/index.mjs"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jameschen215/authentication-basics.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jameschen215/authentication-basics/issues"
+	},
+	"homepage": "https://github.com/jameschen215/authentication-basics#readme",
+	"description": "",
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"ejs": "^3.1.10",
+		"express": "^5.1.0",
+		"express-session": "^1.18.2",
+		"passport": "^0.7.0",
+		"passport-local": "^1.0.0",
+		"pg": "^8.16.3"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.10"
+	}
+}
